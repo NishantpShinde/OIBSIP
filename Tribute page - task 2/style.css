@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background-color: #4a455f;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  margin: 0;
+  text-shadow: 0rem 1.5rem 0.5rem #aaaaaa;
+}
+
+.container .intro {
+  width: 50vw;
+  text-align: justify;
+  padding: 3rem;
+}
+.home {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 7rem;
+  background-color: #aaaaaa;
+}
+
+.image img {
+  padding: 1rem;
+  max-width: 100%;
+  height: 50vh;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 1rem 1rem 2rem black;
+}
+.quote {
+  width: 40vw;
+  margin: 5rem 5rem 8rem 10rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Titillium Web", sans-serif;
+  padding: 1rem;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.image img:hover {
+  transform: scale(1.2);
+}
+
+.quote:hover {
+  text-shadow: 1rem 1rem 2rem #000000;
+  border-radius: 1rem;
+  transform: scale(1.2);
+}
+
+.info p {
+  margin: 5rem;
+}
+.info img {
+  position: relative;
+  left: 14rem;
+  max-width: 60vw;
+  margin-bottom: 3rem;
+}
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
